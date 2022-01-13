@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/all.js"></script>
+    <title>RWD最終作業</title>
+</head>
+<body>
+    <div class="wrap">
+        <div class="header">
+            <div class="top-button-moblie">
+                <a href="#" class="top-button">
+                    <img src="images/hambur_icon.png" alt="">
+                </a>
+                <ul>
+                    <li><a href="index.html">首頁</a></li>
+                    <li><a href="product.html">甜點</a></li>
+                    <li><a href="login.html">登入</a></li>
+                </ul>
+            </div>
+            
+            <h1>
+                <a href="index.html">
+                    Sweetaste
+                </a>
+            </h1>
+            <div class="top-menu">
+                <ul>
+                    <li><a href="index.html">首頁</a></li>
+                    <li><a href="product.html">甜點</a></li>
+                    <li><a href="login.html">登入</a></li>
+                </ul>
+                <a href="cart.html" class="fas fa-shopping-cart cart"></a>
+            </div>
+
+        </div>
+        <div class="checkout-1-content">
+            <div class="checkout-1-data">
+                <div class="checkout-1-data-title">
+                    <h3>運送</h3>
+                    <div class="checkout-step">
+                        <div class="step1"></div>
+                        <div class="step2"></div>
+                        <div class="step3"></div>
+                    </div>
+                </div>
+                <form action="" class="checkout-data-form">
+                    <div class="form-name-all">
+                        <div class="form-surname">
+                            <label for="surname">姓氏</label>
+                            <input type="text" name="surname" id="surname" placeholder="王">
+                        </div>
+                        <div class="form-name">
+                            <label for="name">姓氏</label>
+                            <input type="text" name="name" id="name" placeholder="小明">
+                        </div>
+                    </div>
+                    <div class="form-tel">
+                        <label for="tel">電話</label>
+                        <input type="tel" name="tel" id="tel" placeholder="0912-345-678">
+                    </div>
+                    <div class="form-address">
+                        <label for="address">地址</label>
+                    <select name="address-city" id="address-city">
+                        <option value="address-city">高雄市</option>
+                        <option value="address-city">新北市</option>
+                        <option value="address-city">台中市</option>
+                    </select>
+                    <select name="address-region" id="address-region">
+                        <option value="address-region">新興區</option>
+                        <option value="address-region">板橋區</option>
+                        <option value="address-region">霧峰區</option>
+                    </select>
+                    <input type="text" name="address" id="address" placeholder="幸福路520號">
+                    </div>
+                    <a href="checkout-2.html" class="checkout-1-form-next">下一步</a>
+
+                    
+                    
+                </form>
+
+            </div>
+            <div class="checkout-product-detail">
+                <div class="chckout-product-summary">
+                    <h3>訂單摘要</h3>
+                    <div class="chckout-product-summary-1">
+                        <span>小計</span>
+                        <span>NT$ 2,700</span>
+                    </div>
+                    <div class="chckout-product-summary-2">
+                        <span>運費</span>
+                        <span>NT$ 300</span>
+                    </div>
+                    <div class="chckout-product-summary-3">
+                        <span>總計</span>
+                        <span>NT$ 3,000</span>
+                    </div>
+                </div>
+                <div class="checkout-product-shopping">
+                    <h3>購物清單</h3>
+                    <div class="shopping">
+                        <div class="checkout-product-shopping-images1"></div>
+                        <div class="checkout-product-shopping-detail">
+                            <div>焦糖馬卡龍 (2)</div>
+                            <div>NT$ 900</div>
+                        </div>
+                    </div>
+                    <div class="shopping">
+                        <div class="checkout-product-shopping-images2">
+                        </div>
+                        <div class="checkout-product-shopping-detail">
+                            <div>焦糖馬卡龍 (2)</div>
+                            <div>NT$ 900</div>
+                        </div>
+                    </div>
+                    <div class="shopping">
+                        <div class="checkout-product-shopping-images3">
+                        </div>
+                        <div class="checkout-product-shopping-detail">
+                            <div>焦糖馬卡龍 (2)</div>
+                            <div>NT$ 900</div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+        <div class="footer">
+            <div class="mail">
+                <div class="subscribe-word">
+                    <img src="images/logo-light.svg" alt="">
+                    <p>訂閱你我的甜蜜郵件</p>
+                </div>
+                <div class="subscribe-button">
+                    <div class="subscribe-button-images">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="subscribe-button-text">
+                        <input type="text" name="mail" id="mail">
+                    </div>
+                    <div class="subscribe-button-click">
+                        <button ><i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-address">
+                <div class="address">
+                    <img src="images/logotype-lg-dark.svg" alt="">
+                    <p>
+                        07-1234-5678
+                        <br>
+                        sweetaste@email.com
+                        <br>
+                        800 高雄市新興區幸福路520號
+                    </p>
+                    <div class="footer-icon">
+                        <a href="#">
+                            <img src="images/ic-line@.svg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/ic-facebook.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="slogan">
+                    <img src="images/footer-slogan.svg" alt="">
+                    <div>
+                        <p>© 2018 Sweetaste* All Rights Reserved</p>
+                    </div>
+                </div>   
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
